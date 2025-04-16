@@ -14,3 +14,4 @@
 *venv/*
 .env
 messages.csv
+backup.log

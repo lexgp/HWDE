@@ -35,3 +35,6 @@ nohup python3 bot_regular.py &
 --- дополнение:
 
 А сюда раз в 6 часов по крону будет складываться бэкап таблицы messages: https://disk.yandex.com/d/7VFs8EfUCHnvwA
+```bash
+0 */6 * * * cd /var/www/HWDE && /usr/bin/python3 backup.py >> /var/www/HWDE/backup.log 2>&1
+```
