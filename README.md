@@ -7,3 +7,23 @@
 Данные кладутся сразу в БД postgres.
 
 ![О боте](images/diagram.png)
+
+
+## Как запускать:
+1. Создать виртуальное окружение
+2. Виртуально окружиться `source venv/bin/activate`
+3. Установить зависимости:
+```bash
+pip3 install -r requirements.txt
+```
+4. Создать .env файл и заполнить его как в .env.example
+
+5. Запустить:
+```bash
+python3 bot_regular.py
+```
+
+5.1 Можно запустить фоново, чтобы не отсвечивал:
+```bash
+nohup python3 bot_regular.py &
+```
