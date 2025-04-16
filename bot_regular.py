@@ -18,6 +18,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.sql import func
 
 import datetime
+import random
 
 # загрузка переменных из .env
 load_dotenv()
@@ -103,7 +104,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
             user_id=user_id,
             message=update.message.text,
             reply=bot_message,
-            score=0
+            score=random.randint(1, 5)
         )
         session.add(new_message)
         session.commit()
