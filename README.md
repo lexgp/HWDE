@@ -27,3 +27,5 @@ python3 bot_regular.py
 ```bash
 nohup python3 bot_regular.py &
 ```
+
+Дашбоард и данные можно посмотреть тут: https://datalens.yandex/1ahslok5dd9un?state=9954fbbf213
