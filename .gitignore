@@ -1,0 +1,15 @@
+#pycache
+*/__pycache__/*
+*.pyc
+*.pyo
+*.mo
+*media/*
+*media/payments/*
+*media/tail/*
+*media/user-files/*
+*media/estimates/*
+*bin/*
+*lib/*
+*include/*
+*venv/*
+.env
